@@ -1,0 +1,28 @@
+.login-form {
+	margin-top: 10px;
+	max-width: 20%;
+	min-width: 240px;
+	margin: 0 auto;
+	border-radius: 2px;
+	border-style: none;
+	background-color: lightgrey;
+	box-shadow: 1px 1px 1px 1px;
+}
+
+.login-form-inner {
+	padding: 5px;
+}
+
+.error-message {
+	display: none;
+	color: red;
+}
+
+.invoices-item {
+	padding: 5px;
+}
+
+.invoices-show {
+	max-width: 80%;
+	min-width: 240px;
+}

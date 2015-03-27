@@ -1,0 +1,10 @@
+<template name="layout">
+	<body>
+		<!-- TODO: Make the following alert only show when there's a problem -->
+	  <div class="alert alert-warning alert-dismissible" role="alert">
+	    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	    <strong>Error</strong> {{errorMessage}} <a href="{{pathFor 'login'}}" class="alert-link">Login again</a>
+	  </div>
+		{{> yield }}
+	</body>
+</template>
