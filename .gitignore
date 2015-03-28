@@ -1,2 +1,5 @@
 ## Keep these offline
 api_settings.txt
+
+## Ignore .idea files and directory
+.idea
