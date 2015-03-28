@@ -8,4 +8,3 @@ meteor-platform
 iron:router
 twbs:bootstrap
 http
-insecure
